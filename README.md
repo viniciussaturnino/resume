@@ -29,7 +29,7 @@ Resume/
 
 ```bash
 # Navigate to the resume directory
-cd /Users/vinicius/Documents/Resume
+cd /path/to/Resume
 
 # Build and compile (recommended)
 docker compose up --build
