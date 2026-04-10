@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  latex-compiler:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: resume-compiler
+    volumes:
+      - ./:/workspace
+    working_dir: /workspace
+    command: |
+      bash -c "cd src && \
+               pdflatex -interaction=nonstopmode resume_EN.tex && \
+               pdflatex -interaction=nonstopmode resume_EN.tex && \
+               echo 'PDF generated successfully: src/resume_EN.pdf'"

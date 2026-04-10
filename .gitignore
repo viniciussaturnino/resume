@@ -1,0 +1,52 @@
+# LaTeX generated files
+*.pdf
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex
+*.bbl
+*.blg
+*.toc
+*.lot
+*.lof
+*.nav
+*.snm
+*.vrb
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Build and temporary files
+*.tmp
+*.temp
+build/
+dist/
+
+# Environment files
+.env
+.env.local
+
+# Git
+# .git/
+# .gitignore
+
+# Dependencies (if any are added later)
+node_modules/
+__pycache__/
+*.egg-info/
